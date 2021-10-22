@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULADORA</title>
+    <link href="./Index.css" rel="stylesheet">
+</head>
+<body>
+  
+<h1>CALCULADORA</h1>
+
+<div id= "Calculadora">
+
+    <input type="number" id="Valor1">
+    <br>
+    <input type="number" id="Valor2">
+    <br>
+    <button onclick="Sumar()">+</button>
+    <br>
+    <button>-</button>
+    <button>X</button>
+    <button>/</button>
+
+
+
+
+
+
+
+
+</div>
+
+<script>
+
+var Sumar = function(){
+    var a = document.getElementById('Valor1').value
+    var b = document.getElementById('Valor2').value
+    console.log(a)
+    console.log(b)
+
+    var c = parseInt(a) + parseInt(b)
+    alert(c)
+}
+    
+
+</script>
+    
+</body>
+</html>
