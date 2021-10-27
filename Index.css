@@ -1,0 +1,78 @@
+input#Valor1 {
+    border: 1px solid;
+    border-style: solid;
+    border-radius: 8px;
+    height: 86px;
+    width: 75px;
+}
+
+div#Calculadora {
+}
+
+h1 {
+    color: white;
+}
+
+div#Calculadora {
+    background: gray;
+    border-style: solid;
+    border-color: white;
+    height: 289px;
+    width: 211px;
+    border-radius: 15px;
+    left: 291px;
+    position: absolute;
+    top: 162px;
+    padding: 30px;
+}
+html {
+    background: black;
+}
+
+input#Valor2 {
+    border: 1px;
+    border-style: solid;
+    border-radius: 8px;
+    height: 86px;
+    width: 75px;
+    left: 156px;
+    position: absolute;
+    top: 31px;
+}
+
+button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 40px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: brown;
+    background-color: steelblue;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px goldenrod;
+    height: 80px;
+    width: 80px;
+}
+
+button:hover {background-color: #8e5e3e}
+
+button:active {
+    background-color: #32b436;
+    box-shadow: 0 5px rgb(158, 152, 152);
+    transform: translateY(4px);
+  }
+
+  button#Op2 {
+    left: 152px;
+    position: absolute;
+    top: 138px;
+}
+
+button#Op4 {
+    left: 152px;
+    position: absolute;
+    top: 237px;
+}

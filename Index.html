@@ -17,17 +17,13 @@
     <br>
     <input type="number" id="Valor2">
     <br>
-    <button onclick="Sumar()">+</button>
+    <button onclick="Sumar()" id="Op1">+</button>
     <br>
-    <button>-</button>
-    <button>X</button>
-    <button>/</button>
-
-
-
-
-
-
+    <button onclick="Restar()" id="Op2">-</button>
+    <br>
+    <button onclick="Multiplicar()" id="Op3">X</button>
+    <br>
+    <button onclick="Dividir()" id="Op4">/</button>
 
 
 </div>
@@ -43,7 +39,39 @@ var Sumar = function(){
     var c = parseInt(a) + parseInt(b)
     alert(c)
 }
-    
+
+var Restar = function(){
+    var a = document.getElementById('Valor1').value
+    var b = document.getElementById('Valor2').value
+    console.log(a)
+    console.log(b)
+
+    var c = parseInt(a) - parseInt(b)
+    alert(c)
+
+} 
+
+var Multiplicar = function(){
+    var a = document.getElementById('Valor1').value
+    var b = document.getElementById('Valor2').value
+    console.log(a)
+    console.log(b)
+
+    var c = parseInt(a) * parseInt(b)
+    alert(c)
+
+} 
+
+var Dividir = function(){
+    var a = document.getElementById('Valor1').value
+    var b = document.getElementById('Valor2').value
+    console.log(a)
+    console.log(b)
+
+    var c = parseInt(a) / parseInt(b)
+    alert(c)
+
+} 
 
 </script>
     
