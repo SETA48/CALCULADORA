@@ -11,6 +11,7 @@ div#Calculadora {
 
 h1 {
     color: white;
+    
 }
 
 div#Calculadora {
@@ -75,4 +76,11 @@ button#Op4 {
     left: 152px;
     position: absolute;
     top: 237px;
+}
+
+h1 {
+    color: white;
+    position: absolute;
+    left: 300px;
+    top: 44px;
 }
